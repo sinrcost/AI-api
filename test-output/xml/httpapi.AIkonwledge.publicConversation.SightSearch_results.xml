@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-公共话术"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.552">
+  <properties />
+  
+  
+            <testcase name="getSightByName" time="0.273" classname="httpapi.AIkonwledge.publicConversation.SightSearch" />
+                <testcase name="getSightByName" time="0.279" classname="httpapi.AIkonwledge.publicConversation.SightSearch" />
+      
+</testsuite>

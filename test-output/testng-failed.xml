@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AI接口]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test name="AI知识-公共话术(failed)">
+    <classes>
+      <class name="httpapi.AIkonwledge.publicConversation.SightDelete">
+        <methods>
+          <include name="sightDelete" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- httpapi.AIkonwledge.publicConversation.SightDelete -->
+    </classes>
+  </test> <!-- AI知识-公共话术(failed) -->
+</suite> <!-- Failed suite [AI接口] -->

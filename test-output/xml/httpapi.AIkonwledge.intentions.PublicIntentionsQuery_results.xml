@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-意图"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.025">
+  <properties />
+  
+  
+            <testcase name="getIntentions" time="0.376" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
+                <testcase name="getIntentions" time="0.649" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
+      
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="登录测试"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.677">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="1.246" classname="httpapi.AIkonwledge.intentions.Login" />
+                <testcase name="loginTest" time="0.206" classname="httpapi.AIkonwledge.intentions.Login" />
+                <testcase name="loginTest" time="0.225" classname="httpapi.AIkonwledge.intentions.Login" />
+      
+</testsuite>

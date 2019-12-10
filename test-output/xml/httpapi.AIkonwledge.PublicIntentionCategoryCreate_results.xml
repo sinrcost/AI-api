@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="创建意图类别"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.620">
+  <properties />
+  
+  
+            <testcase name="createIntentionCategory" time="0.267" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+                <testcase name="createIntentionCategory" time="0.353" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+      
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-意图"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.279">
+  <properties />
+  
+  
+            <testcase name="editIntentionCategory" time="0.282" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+                <testcase name="editIntentionCategory" time="0.365" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+                <testcase name="createIntentionCategory" time="0.378" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+                <testcase name="deleteIntentionCategory" time="0.366" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+                <testcase name="createIntentionCategory" time="0.888" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryCreateEditDelete" />
+      
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AI接口" verbose="1">
+
+    <test name="AI知识-意图">
+
+        <packages>
+            <package name="httpapi.AIkonwledge.intentions" />
+        </packages>
+
+    </test>
+
+    <test name="AI知识-公共话术">
+
+        <packages>
+            <package name="httpapi.AIkonwledge.publicConversation" />
+        </packages>
+
+    </test>
+
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+    </listeners>
+
+</suite>

@@ -1,0 +1,189 @@
+org.apache.http.client.protocol.RequestAddCookies 2019-08-26 17:32:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+org.apache.http.client.protocol.RequestAuthCache 2019-08-26 17:32:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 200]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-08-26 17:32:00 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to /192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-08-26 17:32:00 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.3.193:13555<->192.168.3.68:2002
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection 2019-08-26 17:32:00 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10000
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:255 - Executing request POST /auth/login HTTP/1.1
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:135 - http-outgoing-0 >> POST /auth/login HTTP/1.1
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json;charset=UTF-8
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 41
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Host: 192.168.3.68:2002
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 41[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Host: 192.168.3.68:2002[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:86 - http-outgoing-0 >> "{"userPwd":"password","userName":"xfsun"}"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 26 Aug 2019 09:32:01 GMT[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Expires: 0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "46[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "{[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"msg":"[0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]",[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"res":10002,[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"time":"2019-08-26 17:32:02"[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "}[\r][\n]"
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Date: Mon, 26 Aug 2019 09:32:01 GMT
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Pragma: no-cache
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Expires: 0
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: DENY
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://192.168.3.68:2002] can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+httpapi.utils.httputils.HttpResponseUtil 2019-08-26 17:32:00 INFO  HttpResponseUtil:22 - 响应状态码：200;响应内容：{
+	"msg":"密码错误",
+	"res":10002,
+	"time":"2019-08-26 17:32:02"
+}
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:144 - Cancelling request execution
+org.apache.http.client.protocol.RequestAddCookies 2019-08-26 17:32:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+org.apache.http.client.protocol.RequestAuthCache 2019-08-26 17:32:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection 2019-08-26 17:32:00 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10000
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:255 - Executing request POST /auth/login HTTP/1.1
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:135 - http-outgoing-0 >> POST /auth/login HTTP/1.1
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json;charset=UTF-8
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 42
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Host: 192.168.3.68:2002
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Host: 192.168.3.68:2002[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:86 - http-outgoing-0 >> "{"userPwd":"password","userName":"xfsun1"}"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 26 Aug 2019 09:32:01 GMT[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Expires: 0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "46[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "{[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"msg":"[0xe8][0xb4][0xa6][0xe5][0x8f][0xb7][0xe9][0x94][0x99][0xe8][0xaf][0xaf]",[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"res":10001,[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"time":"2019-08-26 17:32:02"[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "}[\r][\n]"
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Date: Mon, 26 Aug 2019 09:32:01 GMT
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Pragma: no-cache
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Expires: 0
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: DENY
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://192.168.3.68:2002] can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+httpapi.utils.httputils.HttpResponseUtil 2019-08-26 17:32:00 INFO  HttpResponseUtil:22 - 响应状态码：200;响应内容：{
+	"msg":"账号错误",
+	"res":10001,
+	"time":"2019-08-26 17:32:02"
+}
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:144 - Cancelling request execution
+org.apache.http.client.protocol.RequestAddCookies 2019-08-26 17:32:00 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+org.apache.http.client.protocol.RequestAuthCache 2019-08-26 17:32:00 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection 2019-08-26 17:32:00 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10000
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:255 - Executing request POST /auth/login HTTP/1.1
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:135 - http-outgoing-0 >> POST /auth/login HTTP/1.1
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json;charset=UTF-8
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 42
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Host: 192.168.3.68:2002
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Host: 192.168.3.68:2002[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:86 - http-outgoing-0 >> "{"userPwd":"passwordq","userName":"xfsun"}"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Date: Mon, 26 Aug 2019 09:32:01 GMT[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Expires: 0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "46[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "{[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"msg":"[0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]",[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"res":10002,[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[0x9]"time":"2019-08-26 17:32:02"[\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "}[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+org.apache.http.wire 2019-08-26 17:32:00 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Date: Mon, 26 Aug 2019 09:32:01 GMT
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Pragma: no-cache
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Expires: 0
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: DENY
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json
+org.apache.http.headers 2019-08-26 17:32:00 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://192.168.3.68:2002] can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-08-26 17:32:00 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+httpapi.utils.httputils.HttpResponseUtil 2019-08-26 17:32:00 INFO  HttpResponseUtil:22 - 响应状态码：200;响应内容：{
+	"msg":"密码错误",
+	"res":10002,
+	"time":"2019-08-26 17:32:02"
+}
+org.apache.http.impl.execchain.MainClientExec 2019-08-26 17:32:00 DEBUG MainClientExec:144 - Cancelling request execution

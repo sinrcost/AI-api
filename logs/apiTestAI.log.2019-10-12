@@ -1,0 +1,220 @@
+org.apache.http.client.protocol.RequestAddCookies 2019-10-12 17:40:06 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+org.apache.http.client.protocol.RequestAuthCache 2019-10-12 17:40:06 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-10-12 17:40:06 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to /192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-10-12 17:40:06 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.3.43:1793<->192.168.3.68:2002
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:255 - Executing request POST /auth/login HTTP/1.1
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:135 - http-outgoing-0 >> POST /auth/login HTTP/1.1
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 36
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> Host: 192.168.3.68:2002
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "Host: 192.168.3.68:2002[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:86 - http-outgoing-0 >> "{"userPwd":"123","userName":"xfsun"}"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Date: Sat, 12 Oct 2019 09:40:09 GMT[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Expires: 0[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "cdb[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "{[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9]"data":{[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"createTime":"2019-08-12 18:40:42",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"hospCode":"47174063-8",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"id":"12b61eec00c3495d81fff303b985118c",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"isDelete":false,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"permissionIds":[[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"941dc14269da4bacb386a5a6a6c16808",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"b29367726aa44bb5ac26a42bc7e837e7",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"fd18f457b07749cb91a46c377f3ca76a",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"223fdff5d9ba423999b25eaab109b1a0",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"9bc2cda55725419abc4b1f9aea7b2dce",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"479006f8a50a41d1a7f68e3842c9b9b2",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"3bb131b68a494977a2a2f808da8c1813",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"2a0daf8186c04d3181f6041d8e400d55",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"0be686d7aeee4a9d824a98c60a767949",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"80788c5f3f3b4eee91baff51c309e9c2",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"7e5a599761914675afd770aba83dae59",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"9f1841727c0e44fba5806997fd26433a",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"c5b4f8ffa02346f68f50efc55a637441",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"c2adaa8cea0f44b1b96903871f95ef69",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"820c622fbfd04a06bedae3ac9525b9b8",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"051e0be6810d42efb8fa813983b6ef86",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"21abcb0d271f4ccc8fc87cb9626cb249",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"5f33d0d973624a1eb47615fc3271dce6",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"997cd9b216854c75b4c371b22dc46a2c",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"1690a5c22e73452dbfe9c2ef7d8e07c2",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"2b3430f5623445ebacf888f39f179018",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"d4250aa318794ae48492c894ab6fd404",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"67b05fc7d7724ee0952ee46528e92d34",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"f6d05d31e188451793bb3ad2f11d88b9",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"4b57e33c3fb74045b4bf4269f586aedd",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"6d2cb53930a8481fbe5d55e11ad34e41",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"8414a34f02454c2eacd667d513ce9500",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"fb2103e7031949cfbf074ce154e2bab2",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"b1b65608e7c245aea7b51d71df7e81cd",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"d44b4591935246e494f3930b8598b49a",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"12e1f5cb02b94d2a930ef683e52642fb",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"7e0dd4012b0344b1ad71c5a61a31ae07",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"f4c738143079472cbebd03bbf3f31f94",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"9ef6b67c0a2e49109504b1cdf3d92521",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"bc72771a0259422ab244b188fdcc8a80",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"5ecbee4f7d5e45c88bcd44617947f377",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"2f6f591c42ff4686b1a919cad6eff1b9",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"c87a30c2f5ec4871b5588a6480411951",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"ab2a037b6ff54ba79336d863862f86b0",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"5cd65bc1d6ae47e7bfca4913471170be",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"706c3f1f40684ff385ffbd2d9ffd208c",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"6b750b69a10f4432be2a3e36a65e38ef",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"d74ec4edab0b48fc935951d171637510",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"fe41f81509524bab907e2c7a7b64f6fb",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"2f3f5ab763c844228fc22467a5f1370b",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"545ad39501724c419aec47a3d7173bbe",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"f13f60f94e324ca6817dbd7bc14994f5",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"b8b3d8502d344b13939628eed1057f83",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"c8f64021f2074888873ce39fe921be07",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"c2f336d753074f73bf11d30776607954",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"608d7f4f9de94676a7dc561fd3312bdc",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"02a8db3ab64940038bac50f3d5acba05",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"7771c9fbb48d4ac9a75a890479c956ee",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"64617d72d57a40b7a3b2534c72a1baa8",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"107d019d7a02478a869fd77efda1bec1",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"1b93d4745dba4024b058355d311a576e",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"da4ec412fe2d47139b96ba080f88d134",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"a31278c36ba94c9495474f8c156d3c28",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"fb39fa1e3a17476ba3443e0ecd40e1a9",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"949f88ca934a4ce18ac1f218120a9c0b",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"bde1891852f04562a76feb9191647b13",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"73f3b17ac5414c8aa04beb3ebf8baf61",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"8f81f69e36274974ad0f1238bcaf35bd",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"f7c4a0cbd5fc434285ded57b35648fe7",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"b46da8c174db4922900dfb407d9e2b4c",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"73fda0f08bc64b4aaa6415fb0b9525a4",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"9b9364a11303441f9836c2251da767ad",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"e7d5079e77064350bc688dcf89754dc3",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"f0cb03478989432f87d9ea2f52125fe5",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"e294f35bba064ea79e19a4680ea1530b",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9][0x9]"e84bd7841e5b42809e56c239a358b88a"[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]],[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"phone":"15988865122",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"roleId":"fbda8f2d988a40c3a0fc4dd73d56ad61",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"roleName":"[0xe5][0x85][0xa8][0xe9][0x83][0xa8][0xe6][0x9d][0x83][0xe9][0x99][0x90]",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"salt":"5b402637ed3ddf3ee4b04e31",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"token":"0b271532-4404-47d5-a6e9-adc2bbaf2d73",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"updateTime":"2019-08-12 18:40:42",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"userName":"xfsun",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9][0x9]"userPwd":"2fcb8f3e531c78b36e932d5ebeb7c3f6"[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9]},[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9]"msg":"success",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9]"res":0,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[0x9]"time":"2019-10-12 17:40:09"[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "}[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Date: Sat, 12 Oct 2019 09:40:09 GMT
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << X-Content-Type-Options: nosniff
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Pragma: no-cache
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Expires: 0
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << X-Frame-Options: DENY
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://192.168.3.68:2002] can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:388 - Connection manager is shutting down
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection 2019-10-12 17:40:06 DEBUG DefaultManagedHttpClientConnection:81 - http-outgoing-0: Close connection
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:394 - Connection manager shut down
+org.apache.http.client.protocol.RequestAddCookies 2019-10-12 17:40:06 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+org.apache.http.client.protocol.RequestAuthCache 2019-10-12 17:40:06 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 200]
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://192.168.3.68:2002][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 200]
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-10-12 17:40:06 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to /192.168.3.68:2002
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 2019-10-12 17:40:06 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 192.168.3.43:1794<->192.168.3.68:2002
+org.apache.http.impl.conn.DefaultManagedHttpClientConnection 2019-10-12 17:40:06 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10000
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:255 - Executing request PUT /ai-web/ai/intentions/public/5c47cbc78c79ac573385edfb HTTP/1.1
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:135 - http-outgoing-1 >> PUT /ai-web/ai/intentions/public/5c47cbc78c79ac573385edfb HTTP/1.1
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Authorization: Bearer0b271532-4404-47d5-a6e9-adc2bbaf2d73
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 198
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Host: 192.168.3.68:2002
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "PUT /ai-web/ai/intentions/public/5c47cbc78c79ac573385edfb HTTP/1.1[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Authorization: Bearer0b271532-4404-47d5-a6e9-adc2bbaf2d73[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 198[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Host: 192.168.3.68:2002[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:86 - http-outgoing-1 >> "{"publicIntentionFlag":"true","intentionContent":"[0xe6][0x9c][0x89][0xe4][0xbb][0x80][0xe4][0xb9][0x88][0xe4][0xba][0x8b][0xe6][0x83][0x85];[0xe5][0x8f][0xaf][0xe4][0xbb][0xa5][0xe7][0x9a][0x84];[0xe6][0x9c][0x89][0xe7][0xa9][0xba];[0xe6][0x96][0xb9][0xe4][0xbe][0xbf];[0xe5][0xa5][0xbd][0xe7][0x9a][0x84];[0xe5][0x8f][0xaf][0xe4][0xbb][0xa5];[0xe5][0xa5][0xbd];[0xe8][0xa1][0x8c][0xe5][0x90][0xa7];hello[0xe5][0xad][0x99];","intentionCategory":"5c47c4088c79ac573385edf3","intentionName":"[0xe6][0x96][0xb9][0xe4][0xbe][0xbf]"}"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Date: Sat, 12 Oct 2019 09:40:10 GMT[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Pragma: no-cache[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Expires: 0[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "X-Frame-Options: DENY[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "69[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "{[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"bytes":null,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"data":null,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"msg":"success",[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"res":0,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"seqNo":null,[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[0x9]"time":"2019-10-12 17:40:10"[\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "}[\r][\n]"
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Date: Sat, 12 Oct 2019 09:40:10 GMT
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << X-Content-Type-Options: nosniff
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << X-XSS-Protection: 1; mode=block
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Pragma: no-cache
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Expires: 0
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << X-Frame-Options: DENY
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+org.apache.http.headers 2019-10-12 17:40:06 DEBUG headers:127 - http-outgoing-1 << Transfer-Encoding: chunked
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "0[\r][\n]"
+org.apache.http.wire 2019-10-12 17:40:06 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://192.168.3.68:2002] can be kept alive indefinitely
+org.apache.http.impl.conn.PoolingHttpClientConnectionManager 2019-10-12 17:40:06 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://192.168.3.68:2002][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 200]
+httpapi.utils.httputils.HttpResponseUtil 2019-10-12 17:40:06 INFO  HttpResponseUtil:22 - 响应状态码：200;响应内容：{
+	"bytes":null,
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":null,
+	"time":"2019-10-12 17:40:10"
+}
+org.apache.http.impl.execchain.MainClientExec 2019-10-12 17:40:06 DEBUG MainClientExec:144 - Cancelling request execution

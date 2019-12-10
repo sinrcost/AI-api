@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-意图"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.967">
+  <properties />
+  
+  
+            <testcase name="getPublicIntentionType" time="0.967" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryQuery" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-意图"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.750">
+  <properties />
+  
+  
+            <testcase name="creatIntention" time="0.750" classname="httpapi.AIkonwledge.intentions.PublicIntentionCreateEditAddkeywordsDelete" />
+      
+</testsuite>

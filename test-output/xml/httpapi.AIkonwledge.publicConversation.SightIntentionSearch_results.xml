@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AI知识-公共话术"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.329">
+  <properties />
+  
+  
+            <testcase name="searchSightIntention" time="0.329" classname="httpapi.AIkonwledge.publicConversation.SightIntentionSearch" />
+      
+</testsuite>
