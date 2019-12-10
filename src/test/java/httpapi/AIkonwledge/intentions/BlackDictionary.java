@@ -27,7 +27,7 @@ public class BlackDictionary {
         ResourceBundle bundle = ResourceBundle.getBundle("host");
         String hostUrl = bundle.getString("test.url");
         String url = hostUrl+bundle.getString("blackDictionary.uri");
-
+        System.out.println("jhj");
         //设置请求头
         Map<String, String> header = new HashMap<String, String>();
         header.put("Authorization", TokenUtil.getToken());
