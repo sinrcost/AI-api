@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.772">
+           time="0.714">
   <properties />
   
   
-            <testcase name="sightAdd" time="0.278" classname="httpapi.AIkonwledge.publicConversation.SightAdd" />
-                <testcase name="sightAdd" time="0.494" classname="httpapi.AIkonwledge.publicConversation.SightAdd" />
+            <testcase name="sightAdd" time="0.448" classname="httpapi.AIkonwledge.publicConversation.SightAdd" />
+                <testcase name="sightAdd" time="0.266" classname="httpapi.AIkonwledge.publicConversation.SightAdd" />
       
 </testsuite>

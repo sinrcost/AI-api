@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.800">
+           time="0.767">
   <properties />
   
   
-            <testcase name="querySightIntention" time="0.308" classname="httpapi.AIkonwledge.publicConversation.SightIntentionQuery" />
-                <testcase name="querySightIntention" time="0.492" classname="httpapi.AIkonwledge.publicConversation.SightIntentionQuery" />
+            <testcase name="querySightIntention" time="0.448" classname="httpapi.AIkonwledge.publicConversation.SightIntentionQuery" />
+                <testcase name="querySightIntention" time="0.319" classname="httpapi.AIkonwledge.publicConversation.SightIntentionQuery" />
       
 </testsuite>

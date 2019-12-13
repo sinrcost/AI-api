@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.301">
+           time="0.292">
   <properties />
   
   
-            <testcase name="querySight" time="0.301" classname="httpapi.AIkonwledge.publicConversation.SightQueryAll" />
+            <testcase name="querySight" time="0.292" classname="httpapi.AIkonwledge.publicConversation.SightQueryAll" />
       
 </testsuite>

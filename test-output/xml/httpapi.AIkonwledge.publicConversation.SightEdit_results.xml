@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.531">
+           time="0.553">
   <properties />
   
   
-            <testcase name="sightEdit" time="0.531" classname="httpapi.AIkonwledge.publicConversation.SightEdit" />
+            <testcase name="sightEdit" time="0.553" classname="httpapi.AIkonwledge.publicConversation.SightEdit" />
       
 </testsuite>

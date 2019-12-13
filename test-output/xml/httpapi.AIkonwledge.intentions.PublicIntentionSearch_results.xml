@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.095">
+           time="1.000">
   <properties />
   
   
-            <testcase name="searchPublicIntention" time="1.095" classname="httpapi.AIkonwledge.intentions.PublicIntentionSearch" />
+            <testcase name="searchPublicIntention" time="1.000" classname="httpapi.AIkonwledge.intentions.PublicIntentionSearch" />
       
 </testsuite>

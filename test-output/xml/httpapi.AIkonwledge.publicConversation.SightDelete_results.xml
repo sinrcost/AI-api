@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.008">
+           time="0.967">
   <properties />
   
   
-            <testcase name="sightDelete" time="0.621" classname="httpapi.AIkonwledge.publicConversation.SightDelete" />
-                <testcase name="sightDelete" time="0.387" classname="httpapi.AIkonwledge.publicConversation.SightDelete" />
+            <testcase name="sightDelete" time="0.381" classname="httpapi.AIkonwledge.publicConversation.SightDelete" />
+                <testcase name="sightDelete" time="0.586" classname="httpapi.AIkonwledge.publicConversation.SightDelete" />
       
 </testsuite>

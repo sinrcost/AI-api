@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.804">
+           time="1.859">
   <properties />
   
   
-            <testcase name="transferPublicIntention" time="0.804" classname="httpapi.AIkonwledge.intentions.PublicIntentionTransferCategory" />
+            <testcase name="transferPublicIntention" time="1.859" classname="httpapi.AIkonwledge.intentions.PublicIntentionTransferCategory" />
       
 </testsuite>

@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.025">
+           time="0.742">
   <properties />
   
   
-            <testcase name="getIntentions" time="0.376" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
-                <testcase name="getIntentions" time="0.649" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
+            <testcase name="getIntentions" time="0.401" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
+                <testcase name="getIntentions" time="0.341" classname="httpapi.AIkonwledge.intentions.PublicIntentionsQuery" />
       
 </testsuite>

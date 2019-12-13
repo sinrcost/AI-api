@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.541">
+           time="3.168">
   <properties />
   
   
-            <testcase name="addBlackDictionaryIntention" time="0.541" classname="httpapi.AIkonwledge.intentions.BlackDictionary" />
+            <testcase name="addBlackDictionaryIntention" time="3.168" classname="httpapi.AIkonwledge.intentions.BlackDictionary" />
       
 </testsuite>

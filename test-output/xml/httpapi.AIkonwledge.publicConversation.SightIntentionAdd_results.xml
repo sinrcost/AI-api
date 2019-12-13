@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.975">
+           time="0.896">
   <properties />
   
   
-            <testcase name="sightIntentionAdd" time="0.975" classname="httpapi.AIkonwledge.publicConversation.SightIntentionAdd" />
+            <testcase name="sightIntentionAdd" time="0.896" classname="httpapi.AIkonwledge.publicConversation.SightIntentionAdd" />
       
 </testsuite>

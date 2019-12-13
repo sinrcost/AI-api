@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.675">
+           time="0.617">
   <properties />
   
   
-            <testcase name="sightIntentionDelete" time="0.675" classname="httpapi.AIkonwledge.publicConversation.SightIntentionDelete" />
+            <testcase name="sightIntentionDelete" time="0.617" classname="httpapi.AIkonwledge.publicConversation.SightIntentionDelete" />
       
 </testsuite>

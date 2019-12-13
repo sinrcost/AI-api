@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.967">
+           time="1.284">
   <properties />
   
   
-            <testcase name="getPublicIntentionType" time="0.967" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryQuery" />
+            <testcase name="getPublicIntentionType" time="1.284" classname="httpapi.AIkonwledge.intentions.PublicIntentionCategoryQuery" />
       
 </testsuite>

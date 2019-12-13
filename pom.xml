@@ -14,10 +14,24 @@
     <!--项目主页的URL, Maven产生的文档用-->
     <url>http://maven.apache.org</url>
 
-
+<!--
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>./src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+-->
     <!--构建项目需要的信息-->
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -25,7 +39,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <reportFormat>xml</reportFormat>
-                    <suiteXmlFiles>src/testng-${env}.xml</suiteXmlFiles>
+                    <suiteXmlFiles>./src/test/resources/testng.xml</suiteXmlFiles>
                 </configuration>
             </plugin>
 
@@ -42,22 +56,19 @@
             </plugin>
 
             <plugin>
-
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.6</version>
-
                 <configuration>
-                    <failOnMissingWebXml>true</failOnMissingWebXml>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
-
             </plugin>
 
         </plugins>
 
     </build>
 
-
+<!--  src/testng-${env}.xml
     <profiles>
         <profile>
             <id>daily</id>
@@ -69,7 +80,7 @@
             </activation>
         </profile>
     </profiles>
-
+-->
 
     <dependencies>
 
